@@ -1,0 +1,33 @@
+Code book for github.com/gracechua/getdata
+
+This code book describes the variables in the tidy data set.
+You should at this point have the original Samsung data set. 
+
+This tidy data set describes the average of each of several measurements, for each of six activities that 30 subjects took part in. 
+
+Each person carried out each of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a samsung Galaxy S-II smartphone on the waist. The phone's embedded accelerometer and gyroscope captured data on linear acceleration and angular velocity in three axes, X, Y, and Z. 
+
+mean -  refers to the mean value for a measurement
+std - refers to the standard deviation for a measurement
+
+-XYZ is used to denote signals in three axes, X, Y, and Z. 
+
+tBodyAcc-XYZ - body acceleration signal 
+tGravityAcc-XYZ - gravity acceleration (XYZ)
+tBodyAccJerk-XYZ - body linear aceleration signal derived to get jerk signal
+tBodyGyro-XYZ - gyroscope signal
+tBodyGyroJerk-XYZ - gyroscope jerk signal
+tBodyAccMag - body acceleration magnitude
+tGravityAccMag - gravity acceleration magnitude
+tBodyAccJerkMag - body acceleration jerk magnitude
+tBodyGyroJerkMag - gyroscope jerk magnitude
+
+Fast Fourier transform was applied to these signals; f indicates frequency domain signals. 
+
+fBodyAcc-XYZ 
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag 
+fBodyBodyAccJerkMag
+fBodyBodyGyroMag
+fBodyBodyGyroJerkMag 
